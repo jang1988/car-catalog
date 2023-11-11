@@ -1,7 +1,8 @@
 import { NextPage } from 'next';
+import Layout from '@/components/layout/layout';
 
 const aboutPage: NextPage = () => {
-    return <div>about</div>
+    return <Layout>about</Layout>
 };
 
 export default aboutPage;

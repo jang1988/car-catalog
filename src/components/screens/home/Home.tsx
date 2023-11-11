@@ -1,8 +1,9 @@
 import React, { FC } from 'react'
+import Layout from '@/components/layout/layout'
 
 const Home: FC = () => {
   return (
-    <div>Home</div>
+    <Layout>Home</Layout>
   )
 }
 
